@@ -1,18 +1,27 @@
-## Getting Started
+# Sistema Smart TV
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este é um projeto simples de um sistema de Smart TV em Java. O código fornecido mostra um exemplo básico de como a Smart TV pode ser controlada, incluindo funções como aumentar/diminuir volume, mudar de canal e ligar/desligar.
 
-## Folder Structure
+## Funcionalidades
 
-The workspace contains two folders by default, where:
+- Aumentar e diminuir o volume
+- Mudar de canal
+- Ligar e desligar a TV
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Como usar
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+1. Clone este repositório para o seu ambiente local.
+2. Certifique-se de ter o JDK (Java Development Kit) instalado em seu sistema.
+3. Compile o código usando o seguinte comando:
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+   ```bash
+   javac Usuario.java
 
-## Dependency Management
+4. Execute o código compilado com o seguinte comando:
+    ```bash
+    java Usuario
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Isso irá executar o programa e você verá o resultado das operações de controle da Smart TV no console.
+
+## Contribuição
+Sinta-se à vontade para contribuir com novas funcionalidades, correções de bugs ou melhorias neste projeto. Basta enviar um pull request!
